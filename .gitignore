@@ -1,0 +1,11 @@
+*.pdf
+*.PDF
+materials/
+pdfs/
+downloads/
+.DS_Store
+.env
+.env.*
+!.env.example
+private-sources.md
+skills/**/references/private-sources.md
