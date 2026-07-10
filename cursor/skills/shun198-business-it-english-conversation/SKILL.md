@@ -1,6 +1,6 @@
 ---
 name: shun198-business-it-english-conversation
-description: Run practical English conversation drills for software engineers and IT workers. Use when the user wants to practice business or technical English for code reviews, GitHub Issues, Slack or Teams messages, standups, meetings, schedule changes, progress reports, incident updates, release coordination, asking for help, giving feedback, or correcting Japanese-to-English direct translations in engineering contexts.
+description: Run practical English conversation drills and write English summaries for software engineers and IT workers. Use when the user wants to practice business or technical English for code reviews, GitHub Issues, Slack or Teams messages, standups, meetings, schedule changes, progress reports, incident updates, release coordination, asking for help, giving feedback, correcting Japanese-to-English direct translations, or summarizing a ChatGPT English conversation.
 ---
 
 # shun198-business-it-english-conversation
@@ -16,6 +16,7 @@ description: Run practical English conversation drills for software engineers an
 3. ユーザーの回答を待つ
 4. 自然な修正版、理由、別表現、次の質問を返す
 5. 最後に使える表現と次の練習案をまとめる
+6. English summary を求められたら下のテンプレートで整理する
 
 ## Drill Modes
 
@@ -24,6 +25,28 @@ description: Run practical English conversation drills for software engineers an
 - Shadowing: 短い表現と発音ヒントで音読練習する
 - Phrase Drill: 1 つの表現パターンを複数の実務場面で反復する
 - Review Prep: 会議、コードレビュー、面接、非同期議論の準備をする
+
+## English Summary Template
+
+```markdown
+## English Summary
+
+### Topics We Covered
+- ...
+
+### Key Questions I Asked
+- ...
+
+### Specific Feedback On My English
+- ...
+
+### Example Questions Or Phrases For Future Use
+- ...
+```
+
+- 各 bullet は短く、次回の練習で再利用しやすく書く
+- phrasing / clarity / tone の具体的な改善点を入れる
+- 明示的な feedback がない場合も、ユーザーの表現から実用的な改善案を 1 つ入れる
 
 ## Scenarios
 

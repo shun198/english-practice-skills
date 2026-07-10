@@ -5,9 +5,9 @@ Engineer-focused English practice skills inspired by
 
 ## Skills
 
-- `business-it-english-conversation`: English conversation practice for
-  engineers working in code reviews, Issues, Slack, meetings, standups, and
-  incident or release discussions.
+- `business-it-english-conversation`: English conversation practice and
+  reusable English summaries for engineers working in code reviews, Issues,
+  Slack, meetings, standups, and incident or release discussions.
 
 ## Agent-Specific Copies
 

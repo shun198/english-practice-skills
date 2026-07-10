@@ -1,4 +1,4 @@
 interface:
   display_name: "Business IT English Conversation"
-  short_description: "Practice practical English for engineers"
-  default_prompt: "Use $business-it-english-conversation to run a short English conversation drill for an engineer."
+  short_description: "Practice and summarize engineer English"
+  default_prompt: "Use $business-it-english-conversation to run a short engineer English drill or summarize my English conversation."

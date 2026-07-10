@@ -1,6 +1,6 @@
 ---
 name: business-it-english-conversation
-description: Run practical English conversation drills for software engineers and IT workers. Use when the user wants to practice business or technical English for code reviews, GitHub Issues, Slack or Teams messages, standups, meetings, schedule changes, progress reports, incident updates, release coordination, asking for help, giving feedback, or correcting Japanese-to-English direct translations in engineering contexts.
+description: Run practical English conversation drills and write English summaries for software engineers and IT workers. Use when the user wants to practice business or technical English for code reviews, GitHub Issues, Slack or Teams messages, standups, meetings, schedule changes, progress reports, incident updates, release coordination, asking for help, giving feedback, correcting Japanese-to-English direct translations, or summarizing a ChatGPT English conversation.
 ---
 
 # Business IT English Conversation
@@ -38,8 +38,8 @@ long lectures.
 4. Reply with a natural corrected version, one short reason, one alternative
    phrase with a different tone, and the next prompt.
 5. Keep each round focused. Avoid correcting every minor issue at once.
-6. End with a compact recap: useful phrases, recurring mistakes, and one next
-   drill suggestion.
+6. End with a compact recap. When the user asks for an English summary, use the
+   English Summary Template below.
 
 ## Drill Modes
 
@@ -82,6 +82,35 @@ long lectures.
   difference from the literal translation.
 - For spoken practice, ask one question at a time and keep prompts short enough
   to answer aloud.
+
+## English Summary Template
+
+When the user asks for an English summary of a ChatGPT conversation, keep it
+simple and use this structure:
+
+```markdown
+## English Summary
+
+### Topics We Covered
+- ...
+
+### Key Questions I Asked
+- ...
+
+### Specific Feedback On My English
+- ...
+
+### Example Questions Or Phrases For Future Use
+- ...
+```
+
+- Keep each bullet concise and reusable.
+- Include concrete phrasing feedback when possible, especially clarity, tone,
+  and natural alternatives.
+- Use sentence-case content inside bullets even if the section titles use title
+  case.
+- If there was no clear feedback in the conversation, write one practical
+  improvement based on the user's wording instead of leaving the section empty.
 
 ## First Prompt Template
 
