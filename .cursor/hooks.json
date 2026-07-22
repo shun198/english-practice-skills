@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": ".shun198-hooks/pre_git_quality_gate.py",
+        "matcher": "(git\\s+commit|git\\s+push|gh\\s+pr\\s+create|gh\\s+pr\\s+ready)",
+        "timeout": 1800,
+        "failClosed": true
+      }
+    ]
+  }
+}
